@@ -7,8 +7,38 @@
   </head>
 
   <body>
-    <h1>“Hello World, we are software developers!”</h1>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+
+    <h1 id="title">Our Survey Form</h1>
+    <p id="description">This is a sample survery form built by Stuart And Diamond</p>
+
+    <form action="GET" id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input type="text" id="name" placeholder="Enter your name" required>
+      <label for="name" id="email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your Email" required>
+      <label for="name" id="number-label">Number</label>
+      <input type="number" id="number" max="13" min="8" placeholder="Enter your number" required>
+      <select name="education" id="dropdown">
+        <option value="">Select Level of Education</option>
+        <option value="University">University</option>
+        <option value="HighSchool">High School</option>
+        <option value="Primary">Primary</option>
+        <option value="Secondary">Secondary</option>
+      </select>
+
+      <input type="checkbox" name="male" id="">
+      <input type="checkbox" name="female" id="">
+      <input type="radio" name="Married" value="married">
+      <input type="radio" name="Single" value="single">
+
+      <textarea name="OtherInformation" id="" cols="30" rows="10" placeholder="Other Comments"></textarea>
+
+      <input type="submit">
+    </form>
+
+
 
     <script src="js/index.js"></script>
   </body>
