@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Sans+JP:wght@700&family=Noto+Sans:wght@600;700&family=Poppins:wght@200;300&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  margin: 0;
+  background-color: #5a5ba1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  height: 100px;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+
+.container p {
+  font-style: italic;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.nav-bar {
+  width: 50%;
+  height: 100vh;
+  background-color: #272746;
+  padding: 2rem;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+#survey-form .name {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 2rem;
+}
+
+input {
+  width: 100%;
+  display: block;
+  padding: 1rem 2rem;
+  border: 1px solid blue;
+  outline: none;
+}
+
+#survey-form .email {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
+  margin-top: 30px;
+}
+
+#dropdown {
+  margin-top: 3em;
+  padding-top: 2rem;
+}
